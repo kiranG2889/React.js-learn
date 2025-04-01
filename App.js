@@ -8,7 +8,7 @@ const heading = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);
 
-const parent = React.createElement("div", { id: "parent" }, [
+const parent = React.createElement("div", { id: "parents" }, [
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", { id: "siblings" }, "I'm first h1 tag"),
   ]),
