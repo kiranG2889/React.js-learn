@@ -1,11 +1,5 @@
 "use strict";
 
-// const heading1 = document.getElementById("root");
-// const child = document.createElement("div");
-// child.classList.add("child", "children");
-// child.innerHTML = "this is a child";
-// heading1.appendChild(child);
-
 const heading = React.createElement(
   "h1",
   { id: "heading" },
@@ -24,16 +18,3 @@ const parent = React.createElement("div", { id: "parent" }, [
 ]);
 
 root.render(parent);
-
-// JSX
-
-// const camelCase = function (sentence) {
-//   const split = sentence.split(" ");
-//   const split2 = split.map((el) => {
-//     return el.at(0).toUpperCase() + el.slice(1).toLowerCase();
-//   });
-//   console.log(split2);
-//   return split2.join("");
-// };
-// const result1 = camelCase("I am KIRan and Here WE aRE and so TO TEst We");
-// console.log(result1);
