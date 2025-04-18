@@ -16,28 +16,9 @@
 - Error Handling
 - Tree Shaking - removing unused code
 
-# Namaste Food
-
-/\*\*
-
-- Header
-- - Logo
-- - Navigation Item
-- Body
-- - Search Input
-- - Card Container
-- -- restaurent cards
-- - Img,
-- - Name of res, star rating, cuisine, delivery time
-- Footer
-- - Copyright
-- - links
-    \*/
-
-// React Element
-// const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
-// console.log(heading);
-/\*\*
+React Element
+const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
+console.log(heading);
 
 - JSX - is not html in javascript
 - it is html like syntax
@@ -45,9 +26,7 @@
 -
 - JSX => Babel transpiles it to React.createElement => ReactElement - JS Object => HTMLElement(render)
 - Babel - turns our ES-6+ code back to ES-5 so that browser can understand
-  \*/
 
-/\*
 const jsxElement = <h1 id="heading">Namaste React using JSX Element</h1>;
 const JsxComponent = () => (
 
@@ -94,7 +73,6 @@ return (
 );
 };
 root.render(<Test />);
-\*/
 
 # React Hooks (Normal JS function)
 
